@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "parser hello.js | jless -"
+    "babel": "parser test-babel.js | jless -",
+    "flow": "node test-flow.js | jless -"
   },
   "keywords": [],
   "author": "Casiano Rodriguez Leon <crguezl@ull.edu.es> (https://crguezl.github.io/)",
   "license": "ISC",
   "devDependencies": {
     "@babel/parser": "^7.17.3"
+  },
+  "dependencies": {
+    "flow-parser": "^0.172.0"
   }
 }
