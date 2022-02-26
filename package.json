@@ -1,0 +1,15 @@
+{
+  "name": "babel-parser-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "parser hello.js | jless -"
+  },
+  "keywords": [],
+  "author": "Casiano Rodriguez Leon <crguezl@ull.edu.es> (https://crguezl.github.io/)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/parser": "^7.17.3"
+  }
+}
